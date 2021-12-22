@@ -1,0 +1,70 @@
+.carts {
+    margin-bottom: 50px;
+    border-bottom: 1px solid #000;
+
+}
+
+.cartContent {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.cartTitle {
+    margin-bottom: 50px;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-right: 30px;
+}
+
+.likeBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.cartText {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.commentsBlock {
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+
+.commentsBlock textarea {
+    resize: none;
+    width: 500px;
+    font-size: 14px;
+    overflow: auto;
+    outline: none;
+    padding: 8px;
+}
+
+.commentsBlock button {
+    font-size: 14px;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    background-color: #0084B4;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 2px;
+    margin-left: 7px;
+    vertical-align: top;
+    padding: 5px 16px 5px 16px;
+    margin-bottom: 50px;
+}
