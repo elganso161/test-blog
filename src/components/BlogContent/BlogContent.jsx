@@ -21,6 +21,7 @@ const BlogContent = () => {
     <>
       <div>
         <input
+          className={style.searchInput}
           type="text"
           placeholder="Search..."
           onChange={(e) => {
@@ -33,7 +34,9 @@ const BlogContent = () => {
           .filter((val) => {
             if (searchTheme == "") {
               return val;
-            } else if (val.theme.toLowerCase().includes(searchTheme.toLowerCase())) {
+            } else if (
+              val.theme.toLowerCase().includes(searchTheme.toLowerCase())
+            ) {
               return val;
             }
           })
@@ -50,20 +53,6 @@ const BlogContent = () => {
             />
           ))}
       </div>
-      {/* <div className={style.blogContent} onClick={clickHandler}>
-        {postsItem.map((item) => (
-          <BlogCards
-            key={item.id}
-            id={item.id}
-            articul={item.articul}
-            title={item.title}
-            text={item.text}
-            img={item.img}
-            likeCount={item.likeCount}
-            comments={item.comments}
-          />
-        ))}
-      </div> */}
     </>
   );
 };
